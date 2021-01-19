@@ -1,0 +1,66 @@
+module.exports = [
+  {
+    stadium: 'Anfield',
+    valueForMoneyInGround: 5,
+    transport: 5,
+    pubsNearGround: 6,
+    thoughts:
+      'Great Ground. Not great transport links, had to get a taxi but otherwise good',
+  },
+  {
+    stadium: 'Anfield',
+    valueForMoneyInGround: 7,
+    transport: 3,
+    pubsNearGround: 6,
+    thoughts: 'Transport awful - had to walk to the ground',
+  },
+  {
+    stadium: 'Anfield',
+    valueForMoneyInGround: 6,
+    transport: 5,
+    pubsNearGround: 7,
+    thoughts: 'Good ground. Shame we lost 5-0',
+  },
+  {
+    stadium: 'Amex Stadium',
+    valueForMoneyInGround: 5,
+    transport: 8,
+    pubsNearGround: 7,
+    thoughts: 'Solid Ground',
+  },
+  {
+    stadium: 'Amex Stadium',
+    valueForMoneyInGround: 6,
+    transport: 9,
+    pubsNearGround: 4,
+    thoughts: 'Decent Ground.',
+  },
+  {
+    stadium: 'Bramel Lane',
+    valueForMoneyInGround: 8,
+    transport: 5,
+    pubsNearGround: 8,
+    thoughts: 'Cheapest pie in the league',
+  },
+  {
+    stadium: 'Bramel Lane',
+    valueForMoneyInGround: 9,
+    transport: 5,
+    pubsNearGround: 6,
+    thoughts: 'Great Ground. Shame they will go down this year',
+  },
+  {
+    stadium: 'Old Trafford',
+    valueForMoneyInGround: 3,
+    transport: 10,
+    pubsNearGround: 7,
+    thoughts: 'Tram straight to the ground. Beer was very expensive',
+  },
+  {
+    stadium: 'Old Trafford',
+    valueForMoneyInGround: 2,
+    transport: 8,
+    pubsNearGround: 7,
+    thoughts: '6 quid for a pint. crazy!!!',
+  },
+];

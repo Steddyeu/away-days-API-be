@@ -1,0 +1,5 @@
+DROP DATABASE IF EXISTS away_days;
+CREATE DATABASE  away_days;
+
+DROP DATABASE IF EXISTS away_days_test;
+CREATE DATABASE away_days_test;
