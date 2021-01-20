@@ -1,5 +1,9 @@
 const { stadiumData, commentData } = require('../data/index');
-const { createRef, createCommentRef } = require('../../utils');
+const {
+  createRef,
+  createCommentRef,
+  formattCommentTimeStamp,
+} = require('../../utils');
 
 exports.seed = function (knex) {
   return knex.migrate
@@ -12,7 +16,11 @@ exports.seed = function (knex) {
     })
     .then((stadiumRows) => {
       const stadiumRef = createRef(stadiumRows, 'name', 'stadium_id');
-      const formattedComments = createCommentRef(commentData, stadiumRef);
+      const commentsWithFormattedTime = formattCommentTimeStamp(commentData);
+      const formattedComments = createCommentRef(
+        commentsWithFormattedTime,
+        stadiumRef
+      );
       return knex.insert(formattedComments).into('comments').returning('*');
     });
 };

@@ -5,6 +5,7 @@ exports.up = function (knex) {
     commentsTable.integer('valueForMoneyInGround').notNullable();
     commentsTable.integer('transport').notNullable();
     commentsTable.integer('pubsNearGround').notNullable();
+    commentsTable.timestamp('created_at').defaultTo(knex.fn.now());
     commentsTable.text('thoughts');
   });
 };

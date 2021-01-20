@@ -10,6 +10,15 @@ const createRef = (stadiumList, name, id) => {
   return refObj;
 };
 
+const formattCommentTimeStamp = (commentData) => {
+  const timeStampedComments = commentData.map((comment) => {
+    const newComment = { ...comment };
+    newComment.created_at = new Date(comment['created_at']);
+    return newComment;
+  });
+  return timeStampedComments;
+};
+
 const createCommentRef = (commentData, stadiumRef) => {
   const formattedComments = commentData.map((comment) => {
     const newComment = { ...comment };
@@ -20,4 +29,4 @@ const createCommentRef = (commentData, stadiumRef) => {
   return formattedComments;
 };
 
-module.exports = { createRef, createCommentRef };
+module.exports = { createRef, createCommentRef, formattCommentTimeStamp };
