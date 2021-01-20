@@ -1,13 +1,12 @@
-const connection = require('../connection');
+const connection = require("../connection");
 
-const fetchAllStadiums = () => {
+const fetchAllStadiums = (sortFilter, orderFilter) => {
+  
   return connection
-    .select('*')
-    .from('stadiums')
-    .returning('*')
-    .catch((err) => {
-      console.log(err);
-    });
+    .select("*")
+    .from("stadiums")
+    .returning("*")
+    .orderBy(sortFilter || "club", orderFilter || "asc")
 };
 
 module.exports = { fetchAllStadiums };
