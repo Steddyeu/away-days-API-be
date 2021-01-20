@@ -13,7 +13,6 @@ exports.seed = function (knex) {
     .then((stadiumRows) => {
       const stadiumRef = createRef(stadiumRows, 'name', 'stadium_id');
       const formattedComments = createCommentRef(commentData, stadiumRef);
-      console.log(formattedComments);
       return knex.insert(formattedComments).into('comments').returning('*');
     });
 };
