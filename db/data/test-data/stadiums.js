@@ -35,4 +35,13 @@ module.exports = [
     description:
       "It is the most remarkable arena I have ever seen. As a football ground it is unrivalled in the world. It is an honour to Manchester.” is what The Sporting Chronicle wrote about Old Trafford upon opening in February of 1910. Quite a welcome, but the stadium proved worthy of its reputation over the years.Before moving to Old Trafford, the great Man United began as Newton Heath and only earned its current name after the old club dissolved in early 20th century. By 1909, just 7 years into its operation as United, owner of local brewery and chairman of the club, John Henry Davies, pumped £90,000 into construction of a brand new stadium with open-air embankments on three sides and a covered main grandstand in the south",
   },
+  {
+    name: "football factory",
+    city: "london",
+    club: "millwall ",
+    capacity: 2000,
+    postcode: "SW1 1AW",
+    description:
+      "Where the real football fans are made.",
+  },
 ];
