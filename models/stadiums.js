@@ -41,6 +41,26 @@ const fetchCommentsByStadiumId = (stadiumId) => {
   });
 };
 
+const insertCommentByStadiumId = (id, comment) => {
+      comment.stadium_id = id
+     
+      return connection
+        .insert(comment)
+        .into("comments")
+        .returning("*")
+        .then((res) => {
+          // console.log('53-->',res)
+          return res[0];
+        })
+        
+};
+
+
+
+
+
+
+
 const checkStadiumExists = (id) => {
   return connection
     .select("*")
@@ -54,10 +74,6 @@ const checkStadiumExists = (id) => {
       }
     });
 };
-
-const insertCommentByStadiumId = (id) => {};
-
-
 module.exports = {
   fetchAllStadiums,
   fetchStadiumByName,

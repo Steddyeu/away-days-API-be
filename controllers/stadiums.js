@@ -34,7 +34,15 @@ const getCommentsByStadiumId = (req, res, next) => {
     .catch(next);
 };
 
-const postCommentByStadiumId = (req, res, next) => {};
+const postCommentByStadiumId = (req, res, next) => {
+  const stadiumId = req.params.stadiumId;
+  const comment = req.body;
+  insertCommentByStadiumId(stadiumId, comment)
+    .then((newComment) => {
+      res.status(201).send({ newComment });
+    })
+  .catch(next)
+};
 
 module.exports = {
   getAllStadiums,

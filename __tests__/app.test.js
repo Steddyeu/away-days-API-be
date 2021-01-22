@@ -127,7 +127,7 @@ describe("API", () => {
           .get("/api/stadiums/10/comments")
           .expect(404)
           .then(({ body }) => {
-            console.log("res -->", body);
+            // console.log("res -->", body);
             expect(body.msg).toBe("stadium not found");
           });
       });
@@ -142,8 +142,37 @@ describe("API", () => {
           })
           .expect(201)
           .then(({ body }) => {
-            console.log("body-->", body);
-            expect(body.comment.transport).toBe(5)
+            //console.log("body-->", body);
+            expect(body.newComment.transport).toBe(5);
+          });
+      });
+      test("400 - stadium not found/ doesnt exist", () => {
+        return request(app)
+          .post("/api/stadiums/100/comments")
+          .send({
+            valueForMoneyInGround: 5,
+            transport: 5,
+            pubsNearGround: 5,
+            thoughts: "test test test",
+          })
+          .expect(400)
+          .then(({ body }) => {
+            // console.log(body.msg);
+            expect(body.msg).toBe("Bad Request");
+          });
+      });
+      test("400 - invalid row", () => {
+        return request(app)
+          .post("/api/stadiums/100/comments")
+          .send({
+            valueForMoneyInGround: 5,
+            transp: 5,
+            pubsNearGround: 5,
+            thoughts: "test test test",
+          })
+          .expect(400)
+          .then(({ body }) => {
+            expect(body.msg).toBe("Bad Request");
           });
       });
     });
