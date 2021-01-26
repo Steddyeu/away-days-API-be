@@ -135,7 +135,7 @@ module.exports = [
     capacity: 39595,
     postcode: "L4 4EL",
     description:
-      "Decision to relocate to Goodison Road was made as future development at Anfield proved unviable. In 1892 a local contractor was ordered to erect three stands – two open terraces and one covered. Complete capacity was 11,000 (two with 4,000, 3,000 under cover).",
+      "Decision to relocate to Goodison Road was made as future development at Anfield proved unviable. In 1892 a local contractor was ordered to erect three stands – two open terraces and one covered, complete capacity was 11,000 (two with 4,000, 3,000 under cover).",
   },
 
   {
