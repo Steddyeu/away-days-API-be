@@ -22,7 +22,7 @@ describe("API", () => {
   });
 
   describe("API/STADIUMS", () => {
-    test("GET - 200 - will return all stadiums", () => {
+    test.only("GET - 200 - will return all stadiums", () => {
       return request(app)
         .get("/api/stadiums")
         .expect(200)
