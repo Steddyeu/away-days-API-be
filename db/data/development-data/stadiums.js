@@ -28,6 +28,7 @@ module.exports = [
   },
   {
     name: "old trafford",
+    logo: "https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png",
     city: "manchester",
     club: "manchester united",
     capacity: 76000,
@@ -148,5 +149,41 @@ module.exports = [
     postcode: "BB10 4BX",
     description:
       "Turf Moor is an association football stadium in Burnley, Lancashire, England, which has been the home of Burnley F.C. since 1883. This unbroken service makes Turf Moor the second-longest continuously used ground in English professional football. The stadium is situated on Harry Potts Way, named after the manager who won the 1959–60 First Division with the club, and has a capacity of 21,944.",
+  },
+  {
+    name: "selhurst park",
+    city: "london",
+    club: "crystal palace",
+    capacity: 25486,
+    postcode: "SE25",
+    description:
+      "Selhurst Park is an association football stadium located in the London suburb of Selhurst in the Borough of Croydon. It is the home ground of Crystal Palace Football Club playing in the Premier League. The stadium was designed by Archibald Leitch and opened in 1924. The stadium has hosted one international football match as well as games for the 1948 Summer Olympics. Part of the stadium incorporates a branch of Sainsbury's.The stadium was shared by Charlton Athletic from 1985 to 1991 and then by Wimbledon from 1991 to 2003.",
+  },
+  {
+    name: "craven cottage",
+    city: "london",
+    club: "fulham",
+    capacity: 25700,
+    postcode: "SW6 6HH",
+    description:
+      "Craven Cottage is a football stadium located in Fulham, London. It has been the home ground of Fulham F.C. since 1896. The ground's capacity is now 19, 359, all- seated, down from 25, 700 which happened when the closure of the Riverside Stand for redevelopment in the close season of 2019. ",
+  },
+  {
+    name: "elland road",
+    city: "leeds",
+    club: "leeds united",
+    capacity: 37890,
+    postcode: "LS11 0ES",
+    description:
+      "Elland Road is a football stadium in Leeds, West Yorkshire, England, which has been the home of Leeds United since the club's formation in 1919. The stadium is the 14th largest football stadium in England.",
+  },
+  {
+    name: "the hawthorns",
+    city: "birmingham",
+    club: "west bromwich albion",
+    capacity: 26850,
+    postcode: "B71 4LF",
+    description:
+      "The Hawthorns is an all-seater football stadium in West Bromwich, West Midlands, England, with a capacity of 26,688. It has been the home of West Bromwich Albion F.C. since 1900, when it became the sixth ground to be used by the club.",
   },
 ];
