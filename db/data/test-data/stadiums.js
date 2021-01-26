@@ -1,6 +1,7 @@
 module.exports = [
   {
     name: "anfield",
+    logo: 'https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png',
     city: "liverpool",
     club: "liverpool fc",
     capacity: 53394,
@@ -10,6 +11,7 @@ module.exports = [
   },
   {
     name: "amex stadium",
+    logo: 'https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png',
     city: "brighton & hove",
     club: "brighton and hove albion",
     capacity: 30666,
@@ -19,6 +21,7 @@ module.exports = [
   },
   {
     name: "bramel lane",
+    logo: 'https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png',
     city: "sheffield",
     club: "sheffield united",
     capacity: 32702,
@@ -28,6 +31,7 @@ module.exports = [
   },
   {
     name: "old trafford",
+    logo: 'https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png',
     city: "manchester",
     club: "manchester united",
     capacity: 76000,
@@ -37,6 +41,7 @@ module.exports = [
   },
   {
     name: "football factory",
+    logo: 'https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png',
     city: "london",
     club: "millwall ",
     capacity: 2000,

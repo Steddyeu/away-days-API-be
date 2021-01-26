@@ -27,6 +27,7 @@ describe("API", () => {
         .get("/api/stadiums")
         .expect(200)
         .then((res) => {
+          console.log(res.body.stadiums)
           expect(res.body.stadiums).toEqual(expect.any(Array));
           expect(res.body.stadiums.length).toBe(5);
         });

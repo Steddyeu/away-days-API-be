@@ -1,6 +1,8 @@
 module.exports = [
   {
     name: "anfield",
+    logo:
+      "https://seeklogo.com/images/L/liverpool-fc-logo-3B886CFE17-seeklogo.com.png",
     city: "liverpool",
     club: "liverpool fc",
     capacity: 53394,
@@ -10,6 +12,8 @@ module.exports = [
   },
   {
     name: "amex stadium",
+    logo:
+      "https://seeklogo.com/images/F/fc-brighton-and-hove-albion-logo-767C689AE8-seeklogo.com.png",
     city: "brighton & hove",
     club: "brighton and hove albion",
     capacity: 30666,
@@ -19,6 +23,8 @@ module.exports = [
   },
   {
     name: "bramel lane",
+    logo:
+      "https://seeklogo.com/images/S/sheffield-utd-fc-logo-CD59BF0954-seeklogo.com.png",
     city: "sheffield",
     club: "sheffield united",
     capacity: 32702,
@@ -28,7 +34,8 @@ module.exports = [
   },
   {
     name: "old trafford",
-    logo: "https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png",
+    logo:
+      "https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png",
     city: "manchester",
     club: "manchester united",
     capacity: 76000,
@@ -39,6 +46,8 @@ module.exports = [
 
   {
     name: "tottenham hotspur stadium",
+    logo:
+      "https://seeklogo.com/images/T/Tottenham_Hotspur-logo-0303D43FA4-seeklogo.com.png",
     city: "london",
     club: "tottenham",
     capacity: 62303,
@@ -48,6 +57,8 @@ module.exports = [
   },
   {
     name: "london stadium",
+    logo:
+      "https://seeklogo.com/images/W/west-ham-united-fc-logo-9A7F01DCA4-seeklogo.com.png",
     city: "london",
     club: "west ham",
     capacity: 60000,
@@ -58,6 +69,8 @@ module.exports = [
 
   {
     name: " emirates stadium",
+    logo:
+      "https://seeklogo.com/images/A/arsenal-fc-logo-1E7333F23E-seeklogo.com.png",
     city: "london",
     club: "arsenal fc",
     capacity: 59867,
@@ -68,6 +81,8 @@ module.exports = [
 
   {
     name: "etihad stadium",
+    logo:
+      "https://seeklogo.com/images/M/manchester-city-fc-new-logo-4C45133019-seeklogo.com.png",
     city: "manchester",
     club: "manchester city",
     capacity: 55017,
@@ -78,6 +93,8 @@ module.exports = [
 
   {
     name: "st james park",
+    logo:
+      "https://seeklogo.com/images/N/newcastle-united-logo-FB0B4713D8-seeklogo.com.png",
     city: "newcastle",
     club: "newcastle united",
     capacity: 52354,
@@ -88,6 +105,8 @@ module.exports = [
 
   {
     name: "villa park",
+    logo:
+      "https://seeklogo.com/images/A/aston-villa-football-club-logo-87EA15CC94-seeklogo.com.png",
     city: "birmingham",
     club: "aston villa",
     capacity: 42682,
@@ -98,6 +117,8 @@ module.exports = [
 
   {
     name: "stamford bridge",
+    logo:
+      "https://seeklogo.com/images/C/chelsea-fc-logo-A24FEB6BFB-seeklogo.com.png",
     city: "london",
     club: "chelsea",
     capacity: 41631,
@@ -107,6 +128,8 @@ module.exports = [
   },
   {
     name: "goodison park",
+    logo:
+      "https://seeklogo.com/images/E/everton-football-club-logo-2D8779FBA9-seeklogo.com.png",
     city: "liverpool",
     club: "everton",
     capacity: 39595,
@@ -117,6 +140,8 @@ module.exports = [
 
   {
     name: "st marys stadium",
+    logo:
+      "https://seeklogo.com/images/S/southampton-fc-logo-4B19787C71-seeklogo.com.png",
     city: "southampton",
     club: "southampton",
     capacity: 32384,
@@ -125,6 +150,8 @@ module.exports = [
   },
   {
     name: "king power stadium",
+    logo:
+      "https://seeklogo.com/images/L/leicester-city-fc-logo-FD9C3CA26E-seeklogo.com.png",
     city: "leicster",
     club: "leicster city",
     capacity: 32273,
@@ -134,6 +161,8 @@ module.exports = [
   },
   {
     name: "molineux stadium",
+    logo:
+      "https://seeklogo.com/images/W/wolverhampton-wanderers-fc-70-s-logo-7B453B9C9F-seeklogo.com.gif",
     city: "wolverhampton",
     club: "wolverhampton",
     capacity: 32050,
@@ -143,6 +172,8 @@ module.exports = [
   },
   {
     name: "turf moor",
+    logo:
+      "https://seeklogo.com/images/B/burnley-fc-logo-D08E749A01-seeklogo.com.png",
     city: "burnley",
     club: "burnley",
     capacity: 21944,
@@ -152,6 +183,8 @@ module.exports = [
   },
   {
     name: "selhurst park",
+    logo:
+      "https://seeklogo.com/images/C/crystal-palace-fc-logo-6F4DFE5EF9-seeklogo.com.png",
     city: "london",
     club: "crystal palace",
     capacity: 25486,
@@ -161,6 +194,8 @@ module.exports = [
   },
   {
     name: "craven cottage",
+    logo:
+      "https://seeklogo.com/images/F/fulham-fc-logo-EBBC39136A-seeklogo.com.png",
     city: "london",
     club: "fulham",
     capacity: 25700,
@@ -170,6 +205,8 @@ module.exports = [
   },
   {
     name: "elland road",
+    logo:
+      "https://seeklogo.com/images/L/leeds-united-fc-logo-0A2FE19F84-seeklogo.com.png",
     city: "leeds",
     club: "leeds united",
     capacity: 37890,
@@ -179,6 +216,8 @@ module.exports = [
   },
   {
     name: "the hawthorns",
+    logo:
+      "https://seeklogo.com/images/F/fc-west-bromwich-albion-logo-4E9098AF20-seeklogo.com.png",
     city: "birmingham",
     club: "west bromwich albion",
     capacity: 26850,
