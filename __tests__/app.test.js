@@ -177,10 +177,10 @@ describe("API", () => {
           });
       });
     });
-    describe("API/COUNTRY/:COUNTRY", () => {
+    describe("API/COUNTRIES/:COUNTRY", () => {
       test('"GET - 200 - will return all stadiums that whose country matched endpoint', () => {
         return request(app)
-          .get("/api/country/england")
+          .get("/api/countries/england")
           .expect(200)
           .then((res) => {
             expect(res.body.stadiums[0].country).toBe("england");
@@ -188,7 +188,7 @@ describe("API", () => {
       });
       test("ERROR - 404 - country does not have stadiums", () => {
         return request(app)
-          .get("/api/country/mars")
+          .get("/api/countries/mars")
           .expect(404)
           .then(({ body }) => {
             // console.log("res -->", body);
@@ -197,7 +197,7 @@ describe("API", () => {
       });
       test.only("GET - 200 - ignores query if sort_by is incorrect", () => {
         return request(app)
-          .get("/api/country/england?sort_by=club&order=desc")
+          .get("/api/countries/england?sort_by=club&order=desc")
           .expect(200)
           .then((res) => {
             console.log(res.body.stadiums)
