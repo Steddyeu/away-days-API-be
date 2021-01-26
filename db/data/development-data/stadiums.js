@@ -5,6 +5,7 @@ module.exports = [
       "https://seeklogo.com/images/L/liverpool-fc-logo-3B886CFE17-seeklogo.com.png",
     city: "liverpool",
     club: "liverpool fc",
+    country: 'england',
     capacity: 53394,
     postcode: "L40TH",
     description:
@@ -16,6 +17,7 @@ module.exports = [
       "https://seeklogo.com/images/F/fc-brighton-and-hove-albion-logo-767C689AE8-seeklogo.com.png",
     city: "brighton & hove",
     club: "brighton and hove albion",
+    country: 'england',
     capacity: 30666,
     postcode: "BN19BL",
     description:
@@ -27,6 +29,7 @@ module.exports = [
       "https://seeklogo.com/images/S/sheffield-utd-fc-logo-CD59BF0954-seeklogo.com.png",
     city: "sheffield",
     club: "sheffield united",
+    country: 'england',
     capacity: 32702,
     postcode: "S24SU",
     description:
@@ -38,6 +41,7 @@ module.exports = [
       "https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png",
     city: "manchester",
     club: "manchester united",
+    country: 'england',
     capacity: 76000,
     postcode: "M160RA",
     description:
@@ -50,6 +54,7 @@ module.exports = [
       "https://seeklogo.com/images/T/Tottenham_Hotspur-logo-0303D43FA4-seeklogo.com.png",
     city: "london",
     club: "tottenham",
+    country: 'england',
     capacity: 62303,
     postcode: "N17 0BX",
     description:
@@ -61,6 +66,7 @@ module.exports = [
       "https://seeklogo.com/images/W/west-ham-united-fc-logo-9A7F01DCA4-seeklogo.com.png",
     city: "london",
     club: "west ham",
+    country: 'england',
     capacity: 60000,
     postcode: "E20 2ST",
     description:
@@ -73,6 +79,7 @@ module.exports = [
       "https://seeklogo.com/images/A/arsenal-fc-logo-1E7333F23E-seeklogo.com.png",
     city: "london",
     club: "arsenal fc",
+    country: 'england',
     capacity: 59867,
     postcode: "N5 1BU",
     description:
@@ -85,6 +92,7 @@ module.exports = [
       "https://seeklogo.com/images/M/manchester-city-fc-new-logo-4C45133019-seeklogo.com.png",
     city: "manchester",
     club: "manchester city",
+    country: 'england',
     capacity: 55017,
     postcode: "M11 3FF",
     description:
@@ -97,6 +105,7 @@ module.exports = [
       "https://seeklogo.com/images/N/newcastle-united-logo-FB0B4713D8-seeklogo.com.png",
     city: "newcastle",
     club: "newcastle united",
+    country: 'england',
     capacity: 52354,
     postcode: "NE1 4ST",
     description:
@@ -109,6 +118,7 @@ module.exports = [
       "https://seeklogo.com/images/A/aston-villa-football-club-logo-87EA15CC94-seeklogo.com.png",
     city: "birmingham",
     club: "aston villa",
+    country: 'england',
     capacity: 42682,
     postcode: "B6 6HE",
     description:
@@ -121,6 +131,7 @@ module.exports = [
       "https://seeklogo.com/images/C/chelsea-fc-logo-A24FEB6BFB-seeklogo.com.png",
     city: "london",
     club: "chelsea",
+    country: 'england',
     capacity: 41631,
     postcode: "SW6 1HS",
     description:
@@ -132,6 +143,7 @@ module.exports = [
       "https://seeklogo.com/images/E/everton-football-club-logo-2D8779FBA9-seeklogo.com.png",
     city: "liverpool",
     club: "everton",
+    country: 'england',
     capacity: 39595,
     postcode: "L4 4EL",
     description:
@@ -144,6 +156,7 @@ module.exports = [
       "https://seeklogo.com/images/S/southampton-fc-logo-4B19787C71-seeklogo.com.png",
     city: "southampton",
     club: "southampton",
+    country: 'england',
     capacity: 32384,
     postcode: "SO14 5FP",
     description: "32384",
@@ -154,6 +167,7 @@ module.exports = [
       "https://seeklogo.com/images/L/leicester-city-fc-logo-FD9C3CA26E-seeklogo.com.png",
     city: "leicster",
     club: "leicster city",
+    country: 'england',
     capacity: 32273,
     postcode: "LE2 7FL",
     description:
@@ -165,6 +179,7 @@ module.exports = [
       "https://seeklogo.com/images/W/wolverhampton-wanderers-fc-70-s-logo-7B453B9C9F-seeklogo.com.gif",
     city: "wolverhampton",
     club: "wolverhampton",
+    country: 'england',
     capacity: 32050,
     postcode: "WV1 4QR",
     description:
@@ -176,6 +191,7 @@ module.exports = [
       "https://seeklogo.com/images/B/burnley-fc-logo-D08E749A01-seeklogo.com.png",
     city: "burnley",
     club: "burnley",
+    country: 'england',
     capacity: 21944,
     postcode: "BB10 4BX",
     description:
@@ -187,6 +203,7 @@ module.exports = [
       "https://seeklogo.com/images/C/crystal-palace-fc-logo-6F4DFE5EF9-seeklogo.com.png",
     city: "london",
     club: "crystal palace",
+    country: 'england',
     capacity: 25486,
     postcode: "SE25",
     description:
@@ -198,6 +215,7 @@ module.exports = [
       "https://seeklogo.com/images/F/fulham-fc-logo-EBBC39136A-seeklogo.com.png",
     city: "london",
     club: "fulham",
+    country: 'england',
     capacity: 25700,
     postcode: "SW6 6HH",
     description:
@@ -209,6 +227,7 @@ module.exports = [
       "https://seeklogo.com/images/L/leeds-united-fc-logo-0A2FE19F84-seeklogo.com.png",
     city: "leeds",
     club: "leeds united",
+    country: 'england',
     capacity: 37890,
     postcode: "LS11 0ES",
     description:
@@ -220,6 +239,7 @@ module.exports = [
       "https://seeklogo.com/images/F/fc-west-bromwich-albion-logo-4E9098AF20-seeklogo.com.png",
     city: "birmingham",
     club: "west bromwich albion",
+    country: 'england',
     capacity: 26850,
     postcode: "B71 4LF",
     description:

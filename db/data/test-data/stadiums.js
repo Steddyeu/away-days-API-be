@@ -4,6 +4,7 @@ module.exports = [
     logo: 'https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png',
     city: "liverpool",
     club: "liverpool fc",
+    country: 'england',
     capacity: 53394,
     postcode: "L40TH",
     description:
@@ -14,6 +15,7 @@ module.exports = [
     logo: 'https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png',
     city: "brighton & hove",
     club: "brighton and hove albion",
+    country: 'england',
     capacity: 30666,
     postcode: "BN19BL",
     description:
@@ -24,6 +26,7 @@ module.exports = [
     logo: 'https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png',
     city: "sheffield",
     club: "sheffield united",
+    country: 'england',
     capacity: 32702,
     postcode: "S24SU",
     description:
@@ -34,6 +37,7 @@ module.exports = [
     logo: 'https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png',
     city: "manchester",
     club: "manchester united",
+    country: 'england',
     capacity: 76000,
     postcode: "M160RA",
     description:
@@ -44,6 +48,7 @@ module.exports = [
     logo: 'https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png',
     city: "london",
     club: "millwall ",
+    country: 'england',
     capacity: 2000,
     postcode: "SW1 1AW",
     description:

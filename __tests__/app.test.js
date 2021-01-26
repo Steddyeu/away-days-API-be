@@ -22,12 +22,12 @@ describe("API", () => {
   });
 
   describe("API/STADIUMS", () => {
-    test.only("GET - 200 - will return all stadiums", () => {
+    test("GET - 200 - will return all stadiums", () => {
       return request(app)
         .get("/api/stadiums")
         .expect(200)
         .then((res) => {
-          console.log(res.body.stadiums)
+          console.log(res.body.stadiums);
           expect(res.body.stadiums).toEqual(expect.any(Array));
           expect(res.body.stadiums.length).toBe(5);
         });
@@ -174,6 +174,34 @@ describe("API", () => {
           .expect(400)
           .then(({ body }) => {
             expect(body.msg).toBe("Bad Request");
+          });
+      });
+    });
+    describe("API/COUNTRY/:COUNTRY", () => {
+      test('"GET - 200 - will return all stadiums that whose country matched endpoint', () => {
+        return request(app)
+          .get("/api/country/england")
+          .expect(200)
+          .then((res) => {
+            expect(res.body.stadiums[0].country).toBe("england");
+          });
+      });
+      test("ERROR - 404 - country does not have stadiums", () => {
+        return request(app)
+          .get("/api/country/mars")
+          .expect(404)
+          .then(({ body }) => {
+            // console.log("res -->", body);
+            expect(body.msg).toBe("Cannot find stadiums in mars");
+          });
+      });
+      test.only("GET - 200 - ignores query if sort_by is incorrect", () => {
+        return request(app)
+          .get("/api/country/england?sort_by=club&order=desc")
+          .expect(200)
+          .then((res) => {
+            console.log(res.body.stadiums)
+            expect(res.body.stadiums[0].name).toBe('bramel lane');
           });
       });
     });
