@@ -4,6 +4,7 @@ exports.up = function (knex) {
     stadiumsTable.string('name').notNullable();
     stadiumsTable.string('city').notNullable();
     stadiumsTable.string('logo');
+    stadiumsTable.string('picture')
     stadiumsTable.string('club').notNullable();
     stadiumsTable.string('country');
     stadiumsTable.integer('capacity').notNullable();
