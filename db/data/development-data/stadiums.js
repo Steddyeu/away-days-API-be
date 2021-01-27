@@ -90,7 +90,7 @@ module.exports = [
     city: 'london',
     club: 'arsenal fc',
     picture:
-      'https://www.fifautehttps://www.stadiumguide.com/wp-content/uploads/emirates_top.jpgam.com/images/fifa21/stadiums/england/Emirates/13.jpg',
+      'https://www.stadiumguide.com/wp-content/uploads/emirates_top.jpg',
     country: 'england',
     capacity: 59867,
     postcode: 'N5 1BU',
