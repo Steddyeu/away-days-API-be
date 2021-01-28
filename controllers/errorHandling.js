@@ -1,5 +1,5 @@
 exports.handlePSQLErrors = (err, req, res, next) => {
-  const badReqCode = ["42703", "23503"];
+  const badReqCode = ["42703", "23503", "22P02", "22003"];
   //console.log(err.code)
   if (badReqCode.includes(err.code)) {
     res.status(400).send({ msg: "Bad Request" });
@@ -20,6 +20,8 @@ exports.handle404s = (req, res, next) => {
 exports.handleCustomError = (err, req, res, next) => {
   if (err.status) {
     res.status(err.status).send({ msg: err.msg });
+  } else {
+    next(err)
   }
 };
 

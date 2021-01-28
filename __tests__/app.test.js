@@ -27,9 +27,9 @@ describe("API", () => {
         .get("/api/stadiums")
         .expect(200)
         .then((res) => {
-          console.log(res.body.stadiums);
+          //console.log(res.body.stadiums);
           expect(res.body.stadiums).toEqual(expect.any(Array));
-          expect(res.body.stadiums.length).toBe(5);
+          expect(res.body.stadiums.length).toBe(4);
         });
     });
 
@@ -48,7 +48,7 @@ describe("API", () => {
         .get("/api/stadiums?sort_by=capacity&order=desc")
         .expect(200)
         .then((res) => {
-          expect(res.body.stadiums.length).toBe(5);
+          expect(res.body.stadiums.length).toBe(4);
         });
     });
 
@@ -115,14 +115,6 @@ describe("API", () => {
           });
       });
 
-      test("GET - 200 - will return an empty array if stadium exists but has no comments", () => {
-        return request(app)
-          .get("/api/stadiums/5/comments")
-          .expect(200)
-          .then((res) => {
-            expect(res.body.comments.length).toBe(0);
-          });
-      });
       test("ERROR - 404 - stadium id does not exist, stadium comments not found", () => {
         return request(app)
           .get("/api/stadiums/10/comments")
@@ -195,13 +187,40 @@ describe("API", () => {
             expect(body.msg).toBe("Cannot find stadiums in mars");
           });
       });
-      test.only("GET - 200 - ignores query if sort_by is incorrect", () => {
+      test("GET - 200 - ignores query if sort_by is incorrect", () => {
         return request(app)
           .get("/api/countries/england?sort_by=club&order=desc")
           .expect(200)
           .then((res) => {
-            console.log(res.body.stadiums)
-            expect(res.body.stadiums[0].name).toBe('bramel lane');
+            //console.log(res.body.stadiums);
+            expect(res.body.stadiums[0].name).toBe("bramel lane");
+          });
+      });
+    });
+    describe("/API/PUBS/:STADIUMID", () => {
+      test("GET - 200 - gets pubs in 1000m radius", () => {
+        return request(app)
+          .get("/api/pubs/1")
+          .expect(200)
+          .then((res) => {
+            expect(res.body.pubs).toEqual(expect.any(Array));
+          });
+      });
+
+      test("ERROR - 404 - country does not have stadiums", () => {
+        return request(app)
+          .get("/api/pubs/mars")
+          .expect(400)
+          .then(({ body }) => {
+            expect(body.msg).toBe("Bad Request");
+          });
+      });
+      test("ERROR - 404 - country does not have stadiums", () => {
+        return request(app)
+          .get("/api/pubs/1000")
+          .expect(404)
+          .then(({ body }) => {
+            expect(body.msg).toBe("No stadium with the id 1000 found");
           });
       });
     });
