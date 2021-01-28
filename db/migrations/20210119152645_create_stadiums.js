@@ -5,8 +5,8 @@ exports.up = function (knex) {
     stadiumsTable.string("city").notNullable();
     stadiumsTable.string("logo");
     stadiumsTable.string("picture");
-    stadiumsTable.decimal("longitude");
-    stadiumsTable.decimal("latitude");
+    stadiumsTable.string("longitude");
+    stadiumsTable.string("latitude");
     stadiumsTable.string("color");
     stadiumsTable.string("club").notNullable();
     stadiumsTable.string("country");
