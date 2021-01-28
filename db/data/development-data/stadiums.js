@@ -5,6 +5,7 @@ module.exports = [
       "https://seeklogo.com/images/L/liverpool-fc-logo-3B886CFE17-seeklogo.com.png",
     city: "liverpool",
     club: "liverpool fc",
+    color: "#C8102E",
     country: "england",
     capacity: 53394,
     picture: "https://www.stadiumguide.com/wp-content/uploads/anfield_top.jpg",
@@ -21,6 +22,7 @@ module.exports = [
     city: "brighton & hove",
     picture: "https://www.stadiumguide.com/wp-content/uploads/amex_top.jpg",
     club: "brighton and hove albion",
+    color: "#0057B8",
     country: "england",
     capacity: 30666,
     postcode: "BN19BL",
@@ -35,6 +37,7 @@ module.exports = [
       "https://seeklogo.com/images/S/sheffield-utd-fc-logo-CD59BF0954-seeklogo.com.png",
     city: "sheffield",
     club: "sheffield united",
+    color: "#EE2737",
     country: "england",
     picture:
       "https://www.stadiumguide.com/wp-content/uploads/bramalllane_top.jpg",
@@ -51,6 +54,7 @@ module.exports = [
       "https://seeklogo.com/images/M/manchester-united-logo-F14DA1FCCD-seeklogo.com.png",
     city: "manchester",
     club: "manchester united",
+    color: "#DA291C",
     picture:
       "https://www.stadiumguide.com/wp-content/uploads/oldtrafford_top.jpg",
     country: "england",
@@ -68,6 +72,7 @@ module.exports = [
       "https://seeklogo.com/images/T/Tottenham_Hotspur-logo-0303D43FA4-seeklogo.com.png",
     city: "london",
     club: "tottenham",
+    color: "#132257",
     country: "england",
     picture:
       "https://www.stadiumguide.com/wp-content/uploads/tottenham_top-1100x619.jpg",
@@ -86,6 +91,7 @@ module.exports = [
     picture:
       "https://www.stadiumguide.com/wp-content/uploads/londonstadium_top.jpg",
     club: "west ham",
+    color: "#7A263A",
     country: "england",
     capacity: 60000,
     postcode: "E202ST",
@@ -101,6 +107,7 @@ module.exports = [
       "https://seeklogo.com/images/A/arsenal-fc-logo-1E7333F23E-seeklogo.com.png",
     city: "london",
     club: "arsenal fc",
+    color: "#EF0107",
     picture: "https://www.stadiumguide.com/wp-content/uploads/emirates_top.jpg",
     country: "england",
     capacity: 59867,
@@ -117,6 +124,7 @@ module.exports = [
       "https://seeklogo.com/images/M/manchester-city-fc-new-logo-4C45133019-seeklogo.com.png",
     city: "manchester",
     club: "manchester city",
+    color: "#6CABDD",
     country: "england",
     capacity: 55017,
     picture: "https://www.stadiumguide.com/wp-content/uploads/etihad_top.jpg",
@@ -133,6 +141,7 @@ module.exports = [
       "https://seeklogo.com/images/N/newcastle-united-logo-FB0B4713D8-seeklogo.com.png",
     city: "newcastle",
     club: "newcastle united",
+    color: "#241F20",
     picture:
       "https://www.stadiumguide.com/wp-content/uploads/stjamespark_top.jpg",
     country: "england",
@@ -150,6 +159,7 @@ module.exports = [
       "https://seeklogo.com/images/A/aston-villa-football-club-logo-87EA15CC94-seeklogo.com.png",
     city: "birmingham",
     club: "aston villa",
+    color: "#95BFE5",
     picture:
       "https://www.stadiumguide.com/wp-content/uploads/villapark_front.jpg",
     country: "england",
@@ -167,6 +177,7 @@ module.exports = [
       "https://seeklogo.com/images/C/chelsea-fc-logo-A24FEB6BFB-seeklogo.com.png",
     city: "london",
     club: "chelsea",
+    color: "#034694",
     country: "england",
     picture:
       "https://www.stadiumguide.com/wp-content/uploads/stamfordbridge_top.jpg",
@@ -183,6 +194,7 @@ module.exports = [
       "https://seeklogo.com/images/E/everton-football-club-logo-2D8779FBA9-seeklogo.com.png",
     city: "liverpool",
     club: "everton",
+    color: "#003399",
     country: "england",
     capacity: 39595,
     picture: "https://www.stadiumguide.com/wp-content/uploads/goodison_top.jpg",
@@ -199,6 +211,7 @@ module.exports = [
       "https://seeklogo.com/images/S/southampton-fc-logo-4B19787C71-seeklogo.com.png",
     city: "southampton",
     club: "southampton",
+    color: "#D71920",
     country: "england",
     picture: "https://www.stadiumguide.com/wp-content/uploads/stmarys_top.jpg",
     capacity: 32384,
@@ -213,6 +226,7 @@ module.exports = [
       "https://seeklogo.com/images/L/leicester-city-fc-logo-FD9C3CA26E-seeklogo.com.png",
     city: "leicster",
     club: "leicster city",
+    color: "#003090",
     country: "england",
     picture:
       "https://www.stadiumguide.com/wp-content/uploads/kingpower_top.jpg",
@@ -229,6 +243,7 @@ module.exports = [
       "https://seeklogo.com/images/W/wolverhampton-wanderers-fc-70-s-logo-7B453B9C9F-seeklogo.com.gif",
     city: "wolverhampton",
     club: "wolverhampton",
+    color: "#FDB913",
     country: "england",
     picture: "https://www.stadiumguide.com/wp-content/uploads/molineux_top.jpg",
     capacity: 32050,
@@ -244,6 +259,7 @@ module.exports = [
       "https://seeklogo.com/images/B/burnley-fc-logo-D08E749A01-seeklogo.com.png",
     city: "burnley",
     club: "burnley",
+    color: "#6C1D45",
     country: "england",
     capacity: 21944,
     postcode: "BB10 4BX",
@@ -259,6 +275,7 @@ module.exports = [
       "https://seeklogo.com/images/C/crystal-palace-fc-logo-6F4DFE5EF9-seeklogo.com.png",
     city: "london",
     club: "crystal palace",
+    color: "#1B458F",
     country: "england",
     capacity: 25486,
     picture:
@@ -275,6 +292,7 @@ module.exports = [
       "https://seeklogo.com/images/F/fulham-fc-logo-EBBC39136A-seeklogo.com.png",
     city: "london",
     club: "fulham",
+    color: "#CC0000",
     country: "england",
     capacity: 25700,
     picture:
@@ -291,6 +309,7 @@ module.exports = [
       "https://seeklogo.com/images/L/leeds-united-fc-logo-0A2FE19F84-seeklogo.com.png",
     city: "leeds",
     club: "leeds united",
+    color: "#FFCD00",
     country: "england",
     picture:
       "https://www.stadiumguide.com/wp-content/uploads/ellandroad_top.jpg",
@@ -307,6 +326,7 @@ module.exports = [
       "https://seeklogo.com/images/F/fc-west-bromwich-albion-logo-4E9098AF20-seeklogo.com.png",
     city: "birmingham",
     club: "west bromwich albion",
+    color: "#122F67",
     country: "england",
     capacity: 26850,
     picture:
