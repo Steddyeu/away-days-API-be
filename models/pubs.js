@@ -1,16 +1,16 @@
 const connection = require("../connection");
 const { fetchStadiumByName } = require("./stadiums");
 const axios = require("axios");
-const key = require('../key')
-
+const key = process.env.ENVIRONMENT_VARIABLE;
 const fetchPubs = (id) => {
 
   return fetchStadiumByName(id).then((stadium) => {
+    
     const longitude = stadium.longitude;
     const latitude = stadium.latitude;
     return axios
       .get(
-        `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=1000&type=bar&key=${key}`
+        `https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=1000&type=bar&key=${key}`
       )
       .then((res) => {
         const filteredPubs = res.data.results.map((pub) => {
