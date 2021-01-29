@@ -10,7 +10,7 @@ const fetchPubs = (id) => {
     const latitude = stadium.latitude;
     return axios
       .get(
-        `https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=1000&type=bar&key=${key}`
+        `https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=1000&type=bar&key=AIzaSyB12YVrfE3v1VZ51xmdJFXeXFfS1QwaIfk`
       )
       .then((res) => {
         const filteredPubs = res.data.results.map((pub) => {
