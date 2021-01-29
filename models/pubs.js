@@ -3,14 +3,18 @@ const axios = require("axios");
 const key = process.env.ENVIRONMENT_VARIABLE;
 
 const fetchPubs = (id) => {
-  console.log("hello");
-  console.log(id);
   return fetchStadiumByName(id).then((stadium) => {
     const longitude = stadium.longitude;
     const latitude = stadium.latitude;
+
+    let url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=1000&type=bar&key=${key}`;
+
+    if (process.env.NODE_ENV === "test") {
+      url = `https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=1000&type=bar&key=${key}`;
+    }
     return axios
       .get(
-        `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=1000&type=bar&key=${key}`
+        `${url}`
       )
       .then((res) => {
         const filteredPubs = res.data.results.map((pub) => {
@@ -27,5 +31,4 @@ const fetchPubs = (id) => {
   });
 };
 
-// https://cors-anywhere.herokuapp.com/
 module.exports = fetchPubs;

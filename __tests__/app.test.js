@@ -198,7 +198,7 @@ describe("API", () => {
       });
     });
     describe("/API/PUBS/:STADIUMID", () => {
-      test.only("GET - 200 - gets pubs in 1000m radius", () => {
+      test("GET - 200 - gets pubs in 1000m radius", () => {
         return request(app)
           .get("/api/pubs/1")
           .expect(200)
