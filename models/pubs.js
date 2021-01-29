@@ -2,10 +2,10 @@ const connection = require("../connection");
 const { fetchStadiumByName } = require("./stadiums");
 const axios = require("axios");
 const key = process.env.ENVIRONMENT_VARIABLE;
-const fetchPubs = (id) => {
 
+
+const fetchPubs = (id) => {
   return fetchStadiumByName(id).then((stadium) => {
-    
     const longitude = stadium.longitude;
     const latitude = stadium.latitude;
     return axios
@@ -22,9 +22,9 @@ const fetchPubs = (id) => {
 
           return newPub;
         });
-        return filteredPubs
+        return filteredPubs;
       });
-  })
+  });
 };
 
 module.exports = fetchPubs;
