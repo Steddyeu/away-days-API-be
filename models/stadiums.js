@@ -34,6 +34,7 @@ const fetchCommentsByStadiumId = (stadiumId) => {
         .select("*")
         .from("comments")
         .where("stadium_id", "=", stadiumId)
+        .orderBy('created_at', 'desc')
         .then((res) => {
           return res;
         });
