@@ -1,18 +1,18 @@
-const connection = require("../connection");
+const connection = require('../connection');
 
 const fetchAllStadiums = (sortFilter, orderFilter) => {
   return connection
-    .select("*")
-    .from("stadiums")
-    .returning("*")
-    .orderBy(sortFilter || "club", orderFilter || "asc");
+    .select('*')
+    .from('stadiums')
+    .returning('*')
+    .orderBy(sortFilter || 'club', orderFilter || 'asc');
 };
 
 const fetchStadiumByName = (stadiumId) => {
   return connection
-    .select("*")
-    .from("stadiums")
-    .where("stadium_id", "=", stadiumId)
+    .select('*')
+    .from('stadiums')
+    .where('stadium_id', '=', stadiumId)
     .then((res) => {
       if (res.length === 0) {
         return Promise.reject({
@@ -25,15 +25,15 @@ const fetchStadiumByName = (stadiumId) => {
     });
 };
 
-const fetchCommentsByStadiumId = (stadiumId) => {
+const fetchCommentsByStadiumId = (stadiumId, sortFilter, orderFilter) => {
   return checkStadiumExists(stadiumId).then((bool) => {
     if (!bool) {
-      return Promise.reject({ status: 404, msg: "stadium not found" });
+      return Promise.reject({ status: 404, msg: 'stadium not found' });
     } else {
       return connection
-        .select("*")
-        .from("comments")
-        .where("stadium_id", "=", stadiumId)
+        .select('*')
+        .from('comments')
+        .where('stadium_id', '=', stadiumId)
         .then((res) => {
           return res;
         });
@@ -42,31 +42,22 @@ const fetchCommentsByStadiumId = (stadiumId) => {
 };
 
 const insertCommentByStadiumId = (id, comment) => {
-      comment.stadium_id = id
-     
-      return connection
-        .insert(comment)
-        .into("comments")
-        .returning("*")
-        .then((res) => {
-          // console.log('53-->',res)
-          return res[0];
-        })
-        
-        
+  comment.stadium_id = id;
+
+  return connection
+    .insert(comment)
+    .into('comments')
+    .returning('*')
+    .then((res) => {
+      return res[0];
+    });
 };
-
-
-
-
-
-
 
 const checkStadiumExists = (id) => {
   return connection
-    .select("*")
-    .from("stadiums")
-    .where("stadium_id", "=", id)
+    .select('*')
+    .from('stadiums')
+    .where('stadium_id', '=', id)
     .then((res) => {
       if (res.length === 0) {
         return false;

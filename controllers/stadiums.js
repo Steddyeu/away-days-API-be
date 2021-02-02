@@ -3,7 +3,7 @@ const {
   fetchStadiumByName,
   fetchCommentsByStadiumId,
   insertCommentByStadiumId,
-} = require("../models/stadiums");
+} = require('../models/stadiums');
 
 const getAllStadiums = (req, res, next) => {
   const sortFilter = req.query.sort_by;
@@ -26,8 +26,10 @@ const getStadiumByName = (req, res, next) => {
 
 const getCommentsByStadiumId = (req, res, next) => {
   const stadiumId = req.params.stadiumId;
-  fetchCommentsByStadiumId(stadiumId)
-    // if(stadiumId > )
+  const sortFilter = req.query.sort_by;
+  const orderFilter = req.query.order;
+  console.log(sortFilter, orderFilter);
+  fetchCommentsByStadiumId(stadiumId, sortFilter, orderFilter)
     .then((comments) => {
       res.status(200).send({ comments });
     })
@@ -41,7 +43,7 @@ const postCommentByStadiumId = (req, res, next) => {
     .then((newComment) => {
       res.status(201).send({ newComment });
     })
-  .catch(next)
+    .catch(next);
 };
 
 module.exports = {
