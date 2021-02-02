@@ -21,6 +21,15 @@ describe('/API', () => {
       });
   });
 
+  test.only('GET 200 wil serve up a list of all endpoints', () => {
+    return request(app)
+      .get('/api')
+      .expect(200)
+      .then((res) => {
+        console.log(res.body);
+      });
+  });
+
   describe('/API/STADIUMS', () => {
     test('GET - 200 - will return all stadiums', () => {
       return request(app)
@@ -109,17 +118,20 @@ describe('/API', () => {
           .get('/api/stadiums/1/comments')
           .expect(200)
           .then((res) => {
-            console.log(res.body.comments);
             expect(res.body.comments.length).toBe(3);
           });
       });
-      test.only('GET - 200 - will filter responses by query', () => {
+      test('GET - 200 - will filter responses by query', () => {
         return request(app)
           .get('/api/stadiums/1/comments?sort_by=created_at&order=asc')
           .expect(200)
           .then((res) => {
-            // console.log(res.body.comments);
-            expect(res.body.comments.length).toBe(3);
+            expect(res.body.comments[0].created_at).toBe(
+              '2016-07-09T17:17:18.932Z'
+            );
+            expect(res.body.comments[1].created_at).toBe(
+              '2016-07-09T18:23:58.932Z'
+            );
           });
       });
 
@@ -130,6 +142,9 @@ describe('/API', () => {
           .then((res) => {
             expect(res.body.comments[0].created_at).toBe(
               '2016-07-09T18:40:38.932Z'
+            );
+            expect(res.body.comments[1].created_at).toBe(
+              '2016-07-09T18:23:58.932Z'
             );
           });
       });

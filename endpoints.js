@@ -110,7 +110,15 @@ const endpoints = {
     },
     'GET /api/stadium/:stadiumId/comments': {
       description: 'serves an array of all comments of a given stadium',
-      queries: [],
+      queries: [
+        'created_at',
+        'comment_id',
+        'transport',
+        'pubsNearGround',
+        'valueForMoneyInGround',
+        'sort_by',
+        'order',
+      ],
       exampleResponse: {
         comments: [
           {
