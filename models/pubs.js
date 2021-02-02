@@ -1,6 +1,5 @@
 const { fetchStadiumByName } = require("./stadiums");
 const axios = require("axios");
-const testKey = require('../key')
 const prodKey = process.env.ENVIRONMENT_VARIABLE;
 
 const fetchPubs = (id) => {
@@ -11,6 +10,7 @@ const fetchPubs = (id) => {
     let url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=1000&type=bar&key=${prodKey}`;
 
     if (process.env.NODE_ENV === "test") {
+      const testKey = require('../key')
       url = `https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=1000&type=bar&key=${testKey}`;
     }
     return axios.get(`${url}`).then((res) => {
