@@ -21,13 +21,14 @@ describe('/API', () => {
       });
   });
 
-  test.only('GET 200 wil serve up a list of all endpoints', () => {
+  test('GET 200 wil serve up a list of all endpoints', () => {
     return request(app)
       .get('/api')
       .expect(200)
       .then((res) => {
-        console.log(res.body);
+        expect(res.body).toHaveProperty('endpoints')
       });
+
   });
 
   describe('/API/STADIUMS', () => {
@@ -38,6 +39,7 @@ describe('/API', () => {
         .then((res) => {
           expect(res.body.stadiums).toEqual(expect.any(Array));
           expect(res.body.stadiums.length).toBe(4);
+
         });
     });
 
@@ -227,11 +229,12 @@ describe('/API', () => {
       });
     });
     describe('/API/PUBS/:STADIUMID', () => {
-      test('GET - 200 - gets pubs in 1000m radius', () => {
+      test.only('GET - 200 - gets pubs in 1000m radius', () => {
         return request(app)
           .get('/api/pubs/1')
           .expect(200)
           .then((res) => {
+            console.log(res.body)
             expect(res.body.pubs).toEqual(expect.any(Array));
           });
       });

@@ -1,12 +1,11 @@
 const { fetchStadiumByName } = require("./stadiums");
 const axios = require("axios");
 const key = process.env.ENVIRONMENT_VARIABLE;
-
+console.log(key)
 const fetchPubs = (id) => {
   return fetchStadiumByName(id).then((stadium) => {
     const longitude = stadium.longitude;
     const latitude = stadium.latitude;
-
     let url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=1000&type=bar&key=${key}`;
 
     if (process.env.NODE_ENV === "test") {

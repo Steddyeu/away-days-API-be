@@ -28,7 +28,6 @@ const getCommentsByStadiumId = (req, res, next) => {
   const stadiumId = req.params.stadiumId;
   const sortFilter = req.query.sort_by;
   const orderFilter = req.query.order;
-  console.log(sortFilter, orderFilter);
   fetchCommentsByStadiumId(stadiumId, sortFilter, orderFilter)
     .then((comments) => {
       res.status(200).send({ comments });
