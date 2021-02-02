@@ -234,8 +234,7 @@ describe('/API', () => {
           .get('/api/pubs/1')
           .expect(200)
           .then((res) => {
-            console.log(res.body)
-            expect(res.body.pubs).toEqual(expect.any(Array));
+            expect(res.body.pubs[0]).toHaveProperty('name');
           });
       });
 
