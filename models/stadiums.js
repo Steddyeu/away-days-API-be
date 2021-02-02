@@ -34,7 +34,7 @@ const fetchCommentsByStadiumId = (stadiumId) => {
         .select("*")
         .from("comments")
         .where("stadium_id", "=", stadiumId)
-        .orderBy('created_at', 'desc')
+        .orderBy("created_at", "desc")
         .then((res) => {
           return res;
         });
@@ -43,25 +43,16 @@ const fetchCommentsByStadiumId = (stadiumId) => {
 };
 
 const insertCommentByStadiumId = (id, comment) => {
-      comment.stadium_id = id
-     
-      return connection
-        .insert(comment)
-        .into("comments")
-        .returning("*")
-        .then((res) => {
-          // console.log('53-->',res)
-          return res[0];
-        })
-        
-        
+  comment.stadium_id = id;
+
+  return connection
+    .insert(comment)
+    .into("comments")
+    .returning("*")
+    .then((res) => {
+      return res[0];
+    });
 };
-
-
-
-
-
-
 
 const checkStadiumExists = (id) => {
   return connection

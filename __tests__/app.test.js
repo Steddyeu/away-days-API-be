@@ -4,7 +4,7 @@ const request = require("supertest");
 const connection = require("../connection");
 const { describe, expect } = require("@jest/globals");
 
-describe("API", () => {
+describe("/API", () => {
   beforeEach(() => {
     return connection.seed.run();
   });
@@ -21,13 +21,12 @@ describe("API", () => {
       });
   });
 
-  describe("API/STADIUMS", () => {
+  describe("/API/STADIUMS", () => {
     test("GET - 200 - will return all stadiums", () => {
       return request(app)
         .get("/api/stadiums")
         .expect(200)
         .then((res) => {
-          //console.log(res.body.stadiums);
           expect(res.body.stadiums).toEqual(expect.any(Array));
           expect(res.body.stadiums.length).toBe(4);
         });
@@ -38,7 +37,6 @@ describe("API", () => {
         .get("/api/stadiums")
         .expect(200)
         .then((res) => {
-          //console.log(res.body);
           expect(res.body.stadiums[0].name).toBe("amex stadium");
         });
     });
@@ -115,12 +113,22 @@ describe("API", () => {
           });
       });
 
+      test("GET - 200 - will return all comments for stadiumin desc order", () => {
+        return request(app)
+          .get("/api/stadiums/1/comments")
+          .expect(200)
+          .then((res) => {
+            expect(res.body.comments[0].created_at).toBe(
+              "2016-07-09T18:40:38.932Z"
+            );
+          });
+      });
+
       test("ERROR - 404 - stadium id does not exist, stadium comments not found", () => {
         return request(app)
           .get("/api/stadiums/10/comments")
           .expect(404)
           .then(({ body }) => {
-            // console.log("res -->", body);
             expect(body.msg).toBe("stadium not found");
           });
       });
@@ -135,11 +143,10 @@ describe("API", () => {
           })
           .expect(201)
           .then(({ body }) => {
-            //console.log("body-->", body);
             expect(body.newComment.transport).toBe(5);
           });
       });
-      test("400 - stadium not found/ doesnt exist", () => {
+      test("ERROR - 400 - stadium not found/ doesnt exist", () => {
         return request(app)
           .post("/api/stadiums/100/comments")
           .send({
@@ -150,11 +157,10 @@ describe("API", () => {
           })
           .expect(400)
           .then(({ body }) => {
-            // console.log(body.msg);
             expect(body.msg).toBe("Bad Request");
           });
       });
-      test("400 - invalid row", () => {
+      test("ERROR - 400 - invalid row", () => {
         return request(app)
           .post("/api/stadiums/100/comments")
           .send({
@@ -169,8 +175,8 @@ describe("API", () => {
           });
       });
     });
-    describe("API/COUNTRIES/:COUNTRY", () => {
-      test('"GET - 200 - will return all stadiums that whose country matched endpoint', () => {
+    describe("/API/COUNTRIES/:COUNTRY", () => {
+      test("GET - 200 - will return all stadiums that whose country matched endpoint", () => {
         return request(app)
           .get("/api/countries/england")
           .expect(200)
@@ -183,7 +189,6 @@ describe("API", () => {
           .get("/api/countries/mars")
           .expect(404)
           .then(({ body }) => {
-            // console.log("res -->", body);
             expect(body.msg).toBe("Cannot find stadiums in mars");
           });
       });
@@ -192,7 +197,6 @@ describe("API", () => {
           .get("/api/countries/england?sort_by=club&order=desc")
           .expect(200)
           .then((res) => {
-            //console.log(res.body.stadiums);
             expect(res.body.stadiums[0].name).toBe("bramel lane");
           });
       });

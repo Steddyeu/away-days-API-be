@@ -41,7 +41,7 @@ const postCommentByStadiumId = (req, res, next) => {
     .then((newComment) => {
       res.status(201).send({ newComment });
     })
-  .catch(next)
+    .catch(next);
 };
 
 module.exports = {

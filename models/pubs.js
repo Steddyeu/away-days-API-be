@@ -12,22 +12,17 @@ const fetchPubs = (id) => {
     if (process.env.NODE_ENV === "test") {
       url = `https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=1000&type=bar&key=${key}`;
     }
-    return axios
-      .get(
-        `${url}`
-      )
-      .then((res) => {
-        const filteredPubs = res.data.results.map((pub) => {
-          //console.log(pub)
-          const newPub = {};
-          newPub.name = pub.name;
-          newPub.lat = pub.geometry.location.lat;
-          newPub.long = pub.geometry.location.lng;
+    return axios.get(`${url}`).then((res) => {
+      const filteredPubs = res.data.results.map((pub) => {
+        const newPub = {};
+        newPub.name = pub.name;
+        newPub.lat = pub.geometry.location.lat;
+        newPub.long = pub.geometry.location.lng;
 
-          return newPub;
-        });
-        return filteredPubs;
+        return newPub;
       });
+      return filteredPubs;
+    });
   });
 };
 
