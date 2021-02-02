@@ -1,4 +1,4 @@
-const stadiums = require('./db/data/development-data/stadiums');
+const stadiums = require("./db/data/development-data/stadiums");
 
 const createRef = (stadiumList, name, id) => {
   const refObj = {};
@@ -13,7 +13,7 @@ const createRef = (stadiumList, name, id) => {
 const formattCommentTimeStamp = (commentData) => {
   const timeStampedComments = commentData.map((comment) => {
     const newComment = { ...comment };
-    newComment.created_at = new Date(comment['created_at']);
+    newComment.created_at = new Date(comment["created_at"]);
     return newComment;
   });
   return timeStampedComments;
