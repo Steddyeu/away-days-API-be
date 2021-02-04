@@ -336,4 +336,6 @@ module.exports = [
     longitude: "-1.963860",
     description:
       'The Hawthorns has been the home of West Bromwich Albion since its doors first opened on the third of September 1900. It was the first Football League ground to be built in the 20th Century and its construction took just four months. That isn’t the only first that the Black Country ground lays claim to either, it was also the first stadium to introduce electronic turnstile aggregators!The Midlands club have long prided themselves on not only being a club of tradition but also of moving with the times and they revolutionised the way grounds are accessed once more when they introduced the Stilecard system in 2002. That year also saw them become the first club to have big screens in a widescreen format at their stadium.As for the Baggies themselves, they’ve had a mixed history. They won the First Division championship in 1920, the only time in the club’s history they’ve won the top league, but have spent roughly half of their existence in the second tier of English football. They gained promotion to the Premier League for the 2010-2011 season and have remained in the top flight since.'
+    }
+
 ];
