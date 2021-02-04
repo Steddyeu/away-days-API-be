@@ -3,8 +3,7 @@
 
 # 
 
-This is our API for the backend of our football stadium DB. This API uses psql to create a database that is seeded with knex.
-
+This is our API for the backend of our football stadium DB. It is built with node.js using an express server and psql a database. The app has been using with TDD using jest.
 Hosted backend: https://frozen-scrubland-34339.herokuapp.com/api
 
 # Tech
@@ -12,6 +11,7 @@ Hosted backend: https://frozen-scrubland-34339.herokuapp.com/api
 - SQL Postgress (pg)
 - Express
 - Knex
+- Node.js
 - Nodemon
 - Jest 
 

@@ -202,8 +202,7 @@ module.exports = [
     postcode: "L44EL",
     latitude: "53.438711",
     longitude: "-2.966421",
-    description:
-      "Decision to relocate to Goodison Road was made as future development at Anfield proved unviable. In 1892 a local contractor was ordered to erect three stands – two open terraces and one covered, complete capacity was 11,000 (two with 4,000, 3,000 under cover).",
+    desc: "Goodison Park is rife with history. It has been Everton Football Club’s home ground since its completion in 1892 and is one of the oldest purpose-built football stadiums in the entire world. The Grand Old Lady, as it is known to Everton fans, has hosted more top-flight games than any other stadium in England.Located less than a mile from the home stadium of Everton’s fierce city rivals, Liverpool Football Club, Goodison has hosted the maximum number of league games possible since the Premier League was introduced in 1992. The ground has hosted the FA Cup final as well as the semi-final of the 1966 World Cup between West Germany and the Soviet Union.",
   },
 
   {
@@ -219,7 +218,7 @@ module.exports = [
     postcode: "SO145FP",
     latitude: "50.905902",
     longitude: "-1.390918",
-    description: "32384",
+    description: "For readers of a certain age Southampton Football Club will always be associated with The Dell; the atmospheric old stadium that the Saints called home virtually from their inception until they left the place in 2001. There had been talk of leaving the famous old ground as early as the 1980s but the powers that be could never quite find the right location. That all changed when the council offered them ground in the heart of the city and work began on building the new ground in 1999. Both the ground and the club itself get their names from the same place, though in the case of the club it’s actually their nickname. Formed in 1885 as St. Mary’s Church Of England Young Men’s Association, they became St. Mary’s FC in 1887, Southampton St. Mary’s in 1894 and simply Southampton FC in 1896. The fact that they were formed as a church football team is why they are known colloquially as ‘The Saints’ and the location of the new stadium as being close to St. Mary’s church, where the club was formed, is the reason behind its name.",
   },
   {
     name: "king power stadium",
@@ -236,7 +235,7 @@ module.exports = [
     latitude: "52.620377",
     longitude: "-1.142352",
     description:
-      "Leicester City player their Home games at Filbert Street for a hundred years already (from 1891), when infrastructure regulations in England started changing. The stadium, despite historical upgrades and quick renovation proved too modest for increasing interest in City games.",
+      "For people of a certain age Leicester City Football Club will always be associated with Filbert Street. Since 2002, however, the Foxes have called Leicester City Stadium their home. Owing to sponsorship deals the stadium has in the past been known as The Walkers Stadium and, in its current incarnation, The King Power Stadium. With a capacity of 36,232, the King Power is the 19th largest football stadium in England. Though it doesn’t have as much history to it as more storied locations such as Anfield or Old Trafford, it did witness Leicester win the second tier division title for a record equalling seventh time, joining Manchester City, in 2013-2014. That season also saw the club win their record number of points in a single season, 102. That was as nothing compared to the end of the 2015-2016 campaign, however, when Leicester surprised everyone by winning the Premier League at odds of 5000/1. However, the stadium has also been the setting for a real tragedy. In 2018, the owner of the club, Vichai Srivaddhanaprabha, and four others took off in a helicopter from the middle of the pitch live on television, only to crash moments later, killing all on board. The club and the city went into mourning and a huge number of tributes were laid out by fans and staff alike.",
   },
   {
     name: "molineux stadium",
@@ -252,7 +251,7 @@ module.exports = [
     latitude: "52.590118",
     longitude: "-2.130208",
     description:
-      "Although not among the biggest in England today, Molineux Stadium has a rich history reaching… the 18th century.It was then, in 1744, that the Molineux family bought the plot of land on which they’ve built Molineux House, later changed into Molineux Hotel. ",
+      "Despite having a name that sounds a little like a type of painkiller, Molineux is full of history and also boasts a number of fun claims to fame. It has been the home of Wolverhampton Wanderers since 1889 and was also the club’s first permanent football ground. Previously they’d basically played on a field and a makeshift location on Dudley Road. Molineux was the first ‘new build’ stadium in the Football League and was also one of the first grounds to install floodlights, allowing games to be played after it had gone dark out. Molineux also played host to one of the first European club games, which it did in the 1950s. When it was renovated in the early 1990s the stadium was considered to be one of the most modern and state-of-the-art grounds in England, though it is obviously showing its age now compared to more recently developed grounds.",
   },
   {
     name: "turf moor",
@@ -268,7 +267,7 @@ module.exports = [
     longitude: "-2.229980",
     picture: "https://www.stadiumguide.com/wp-content/uploads/turfmoor_top.jpg",
     description:
-      "Turf Moor is an association football stadium in Burnley, Lancashire, England, which has been the home of Burnley F.C. since 1883. This unbroken service makes Turf Moor the second-longest continuously used ground in English professional football. The stadium is situated on Harry Potts Way, named after the manager who won the 1959–60 First Division with the club, and has a capacity of 21,944.",
+      "Turf Moor has been the home of Burnley Football Club since it opened in 1883. The ground is located on Harry Potts Way, a location named after the club’s longest serving manager. It had a slight claim to fame in that it was one of the final grounds in England to boast the location of the player’s tunnel and dressing room behind one of the goals until they had to be covered in seating for the 2014-2015 season when the club was promoted to the Premier League.When Turf Moor was first built there weren’t any stands and it was just a pitch that people gathered around. The first stand wasn’t built until 1885. The entirety of Turf Moor was rebuilt after the Second World War at which point it had four stands erected. There were further redevelopments to the ground in the 1990s when the Taylor Report ruling meant that football stadiums had to be all-seated affairs.",
   },
   {
     name: "selhurst park",
@@ -285,7 +284,7 @@ module.exports = [
     latitude: "51.398322",
     longitude: "-0.085395",
     description:
-      "Selhurst Park is an association football stadium located in the London suburb of Selhurst in the Borough of Croydon. It is the home ground of Crystal Palace Football Club playing in the Premier League. The stadium was designed by Archibald Leitch and opened in 1924. The stadium has hosted one international football match as well as games for the 1948 Summer Olympics. Part of the stadium incorporates a branch of Sainsbury's.The stadium was shared by Charlton Athletic from 1985 to 1991 and then by Wimbledon from 1991 to 2003.",
+      "Located in the borough of Croydon in South London, Selhurst Park has been the home of Crystal Palace since 1924. The site used to belong to Brighton Railway Company and was bought by the club for £2570. The stadium that was eventually built was designed by the Scottish stadium architect Archibald Leith and was opened on the 30th of August 1924 by the Lord Mayor of London.As for The Eagles, the club was founded in 1905 and had three venues that they called home before settling permanently at Selhurst Park. They were founded at the Crystal Palace Exhibition building and played their home games there until 1915 when they moved to the Herne Hill Velodrome and then The Nest; the latter being officially called the Croydon Common Athletic Ground. Interestingly enough, Norwich City also played at a stadium known as The Nest, though it’s not the same one.",
   },
   {
     name: "craven cottage",
@@ -302,7 +301,7 @@ module.exports = [
     latitude: "51.475033",
     longitude: "-0.221815",
     description:
-      "Craven Cottage is a football stadium located in Fulham, London. It has been the home ground of Fulham F.C. since 1896. The ground's capacity is now 19, 359, all- seated, down from 25, 700 which happened when the closure of the Riverside Stand for redevelopment in the close season of 2019. ",
+      "Craven Cottage actually has its roots in a real life cottage that stood on the site of Fulham’s home ground from 1780 until it burnt down in 1888. Rumoured occupants of the cottage over the years include Sir Arthur Conan Doyle, Florence Nightingale and even Queen Victoria, though none of these rumours have ever been substantiated. The cottage was located on a patch of ground that has now become the centre circle, whilst the pitch area that surrounded it was actually a forrest that was part of a hunting ground used by Anne Boleyn.Before settling at Craven Cottage Fulham were a team of footballing nomads, travelling from one ground to another without ever really laying down roots at any of them. They were looking for a permanent home, though, and club representatives realised they had somewhere with potential when they came across the land that would later become their home ground. The land was overgrown so badly, however, that it took two years to make is suitable for football to be played on it.",
   },
   {
     name: "elland road",
@@ -319,7 +318,7 @@ module.exports = [
     latitude: "53.777871",
     longitude: "-1.572167",
     description:
-      "Elland Road is a football stadium in Leeds, West Yorkshire, England, which has been the home of Leeds United since the club's formation in 1919. The stadium is the 14th largest football stadium in England.",
+      "Since the club’s foundation in 1919, Leeds United have only ever played their home fixtures at one ground: Elland Road. The ground began its life as the host of sporting fixtures much earlier than the formation of Leeds United, however. Built in 1897 and opening the same year, it spent seven years as the home of Holbeck Rugby Club and was originally called The Old Peacock Ground, named after the pub that stood opposite to it. Leeds United also weren’t the first football team to play games on the Elland Road pitch. Leeds City Football Club was the leading professional club in the city from 1904 until it dissolved due to financial difficulties in 1919, with United taking over from them as the city’s foremost side. The players of Leeds City were then auctioned off at the city’s Metropole Hotel though, interestingly, none of the players ever player for Leeds United.",
   },
   {
     name: "the hawthorns",
@@ -336,6 +335,5 @@ module.exports = [
     latitude: "52.509144",
     longitude: "-1.963860",
     description:
-      "The Hawthorns is an all-seater football stadium in West Bromwich, West Midlands, England, with a capacity of 26,688. It has been the home of West Bromwich Albion F.C. since 1900, when it became the sixth ground to be used by the club.",
-  },
+      'The Hawthorns has been the home of West Bromwich Albion since its doors first opened on the third of September 1900. It was the first Football League ground to be built in the 20th Century and its construction took just four months. That isn’t the only first that the Black Country ground lays claim to either, it was also the first stadium to introduce electronic turnstile aggregators!The Midlands club have long prided themselves on not only being a club of tradition but also of moving with the times and they revolutionised the way grounds are accessed once more when they introduced the Stilecard system in 2002. That year also saw them become the first club to have big screens in a widescreen format at their stadium.As for the Baggies themselves, they’ve had a mixed history. They won the First Division championship in 1920, the only time in the club’s history they’ve won the top league, but have spent roughly half of their existence in the second tier of English football. They gained promotion to the Premier League for the 2010-2011 season and have remained in the top flight since.'
 ];
