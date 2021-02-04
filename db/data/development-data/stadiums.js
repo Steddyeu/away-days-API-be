@@ -13,7 +13,7 @@ module.exports = [
     latitude: "53.430808",
     longitude: "-2.960701",
     description:
-      "Although it operates since 1884, the first tenant was not LFC, but Everton. But since the club could not buy the ground from its owner, they moved to Goodison Park. The move left John Orrell with an empty stadium so he launched Liverpool FC. The club started playing in 1892 and by 1906 already had 2 championships on their account. During that time three new stands were raised. In 1928 history of the world's most famous stand began, as The Kop was expanded to accomodate 30,000 standing fans. For decades this has been the central point for Liverpool FC fanbase. Further redevelopments allowed the club to achieve a record audience of over 61,000 in 1952 and play their first game with floodlights in 1957. Crucial changes came in the 90's as a result of Taylor Report, published after Hillsborough disaster. Currently the stadium comemorises 96 victims of that day with an eternal flame. Legendary manager Bill Shankly also has his place at Anfield with a monument and a gate named after him.In 2014-2016 the stadium underwent its largest partial reconstruction to date. The western main stand grew from one to three tiers, dominating the stadium and landscape. Thanks to this change, LFC are able to invite over 50,000 fans for the first time since conversion to all-seating capacity. The club also has outline planning permission for similar expansion to follow along Anfield Road.",
+      "Anfield is one of the few football stadiums known the world over by name alone. A traditional four cornered ground with stands close to the pitch and a famous atmosphere, the ground in fact initially played host to Liverpool's bitter local rivals Everton. Having hosted Liverpool FC for nearly 125 years, the Main Stand was redeveloped ahead of the 2016-2017 season and both capacity and facilities were improved as a result.As host to one of England's most successful football teams, Anfield has a large museum and very popular stadium tours. Full hospitality is available on matchdays with corporate hosting, private hire and conference facilities at other times. The stadium is worth a visit for anyone visiting the city of Liverpool, not just on matchdays.Anfield is also very close to Goodison Park, home to Everton FC, with a walk of just over half a mile required through Stanley Park to get there.",
   },
   {
     name: "amex stadium",
@@ -29,7 +29,7 @@ module.exports = [
     latitude: "50.861607",
     longitude: "-0.083633",
     description:
-      "The Seagulls” had to leave their Goldstone Ground in 1997, two years after the club sold the ground. They had no alternative venue in Brighton, so were playing 75km away in Gillingham. Though attempts to build a new home stadium started back in the 1990’s, no success came for a decade. Supporters were running several large-scale campaigns that even got the prime minister involved, but for years procedural issues and opposition held the project back.Finally at the end of 2008 construction works started on site and finished in early June 2011. The result was American Express Community Stadium, as it’s called for sponsorship reasons. But since no-one really cares to say the whole name, it’s more often called AmEx Stadium or simply The AmEx. There also are some more traditional supporters who refuse to acknowledge the name, still calling it Falmer Stadium, as was the name during planning and construction.but however they call it, it’s still a 22,347-seater worth Ł105mln. The seats were divided into four separate stands. Main one has three tiers and accommodates over half the capacity – 11,833. Opposite is the family stand (5,404) while behind both goals there are ends for the more vocal locals (north – 2,688 seats) and away fans (2,575).If demand is high, corners may be filled and current stands may also receive a second tier to give a capacity of 35,000. Which proved needed as already during construction it turned out that the planned 2,109 business seats was too little and another 400 were made. By mid-2013 stands had to grow further, reaching 30,750.",
+      "Falmer Stadium is the home of Brighton and Hove Albion Football Club, though it’s known as The American Express Community Stadium because of sponsorship reasons. It’s also known as The Amex for simplicity reasons! It’s located near to the village of Falmer, which is where it got its original name from. The Amex replaced the club’s former stadium, the Goldstone Ground, owing to the fact that the club’s former owners sold it to developers. Because the old owners didn’t line- up a replacement ground for Brighton they ended up bouncing around a number of different stadiums whilst they looked for their own home.Originally they ground - shared with Gillingham at Priestfield Stadium before using Withdean Stadium for a time.The location that would eventually be the building area for Falmer Stadium was actually identified as early as 1998. However delays in planning permission meant that Brighton had to wait over a decade until their new stadium was officially opened in 2011.",
   },
   {
     name: "bramel lane",
@@ -46,8 +46,9 @@ module.exports = [
     latitude: "53.370323",
     longitude: "-1.470877",
     description:
-      "Pretty much every football ground has a history to speak of in its own way, but Bramall Lane’s history knocks them all out of the water. The home of Sheffield United is actually the oldest professional football ground in the world, having hosted its first match as far back as 1862. The ground has its own claim to fame in a more modern sense, too, as it was the first to host a floodlit football match, which it did on the 14th of October 1878.The uniqueness of Bramall Lane doesn’t stop there. It is one of only two stadiums in the world that has hosted an England football international match, an England cricket test match and an FA Cup Final. England’s national side played five internationals at the Sheffield ground before 1930, whilst the cricket test match came in 1902 when England played Australia. The FA Cup final was actually a replay between Barnsley and West Brom, a match that Barnsley won 1-0.",
+      "Pretty much every football ground has a history to speak of in its own way, but Bramall Lane’s history knocks them all out of the water. The home of Sheffield United is actually the oldest professional football ground in the world, having hosted its first match as far back as 1862. The ground has its own claim to fame in a more modern sense, too, as it was the first to host a floodlit football match, which it did on the 14th of October 1878. The uniqueness of Bramall Lane doesn’t stop there.It is one of only two stadiums in the world that has hosted an England football international match, an England cricket test match and an FA Cup Final.England’s national side played five internationals at the Sheffield ground before 1930, whilst the cricket test match came in 1902 when England played Australia.The FA Cup final was actually a replay between Barnsley and West Brom, a match that Barnsley won 1-0.",
   },
+
   {
     name: "old trafford",
     logo:
@@ -63,7 +64,7 @@ module.exports = [
     latitude: "53.462899",
     longitude: "-2.291222",
     description:
-      "It is the most remarkable arena I have ever seen. As a football ground it is unrivalled in the world. It is an honour to Manchester.” is what The Sporting Chronicle wrote about Old Trafford upon opening in February of 1910. Quite a welcome, but the stadium proved worthy of its reputation over the years.Before moving to Old Trafford, the great Man United began as Newton Heath and only earned its current name after the old club dissolved in early 20th century. By 1909, just 7 years into its operation as United, owner of local brewery and chairman of the club, John Henry Davies, pumped £90,000 into construction of a brand new stadium with open-air embankments on three sides and a covered main grandstand in the south",
+      "Old Trafford is one of the most famous stadiums in the world thanks to the success the club has achieved over the last 30 years or so. It is a traditional, four-sided stadium with the stands close to the pitch. Built in 1909 and opened officially in 1910, Old Trafford has always played host to Manchester United Football Club, or the Red Devils as they are known.It is the largest club stadium in the United Kingdom, second only to Wembley in terms of capacity. Owing to Manchester United being one of the most successful clubs in the country and one of the most famous in the world, the stadium also has a museum and offers tours.You can take advantage of hospitality on match days as well as corporate hosting and private hire at other times. The impressive nature of the stadium means that it is well worth a visit if you are ever in Manchester, perhaps combined with a visit to the home of the club’s bitter city rivals Manchester City’s ground, The Etihad.",
   },
 
   {
@@ -81,7 +82,7 @@ module.exports = [
     latitude: "51.604185",
     longitude: "-0.066027",
     description:
-      "Tottenham had played host at the site beside High Road since 1899, when the first iteration of White Hart Lane opened.The stadium, designed in part by the famous Archibald Leitch, saw crowds of over 70, 000 at its peak.But the 1990s brought reforms that forced capacity to fall drastically, quite understandable for a stadium sitting on just 2.4 hectares.",
+      "Tottenham Hotspur called White Hart Lane home from 1899 until 2017. The space the ground was built on was originally a nursery that was owner by Charringtons, a brewery chain, and was sitting disused. The ground was redeveloped in the early part of the 20th century by renowned stadium designer Archibald Leitch who had also designed grounds such as Stamford Bridge, Villa Park and Old Trafford. In 2019 they moved into their current home of the Tottenham Hotspur Stadium, built on the same site as White Hart Lane. As for Spurs themselves they have numerous claims to fame.They are the only non- league team to ever win the FA Cup, for example, something that they achieved in 1901, 19 years after the team had been formed.They were also the first team in the 20th century to win a league and FA Cup double, which they did in 1960 - 1961. In 2017 the club made the decision to demolish White Hart Lane in order to build a new stadium on top of it, which opened in 2019 under the imaginative name of Tottenham Hotspur Stadium.",
   },
   {
     name: "london stadium",
@@ -98,7 +99,7 @@ module.exports = [
     latitude: "51.538568",
     longitude: "0.016469",
     description:
-      "Design by renowned architects of Populous was presented in Nov 2007, long ahead of 2012 Olympics, for which the venue was the centre point. Along with legacy plans accepted by the IOC it was to have capacity of 80,000 during Games and 25,000 afterwards, with athletics track left intact. Upper tiers of seating were to be recycled.",
+      "When West Ham United made the decision to leave Upton Park, their home ground for 112 years, it seemed as though someone also made the decision to start calling it the Boleyn Ground. No one is sure as to why, but there you go. The Hammers departure from a stadium that had opened its doors for the first time back in 1904 was seen as risky but necessary. By that point it was showing its age and the cost of updating it sufficiently was prohibitive. Thankfully there was a state-of-the-art stadium needing new occupants, so West Ham's owners did their best to make sure that they were the ones that moved in. There was a not insignificant amount of controversy surrounding West Ham's bidding for the use of The Stadium at Queen Elizabeth Olympic Park, but that's a tale for another time. As the name above might suggest, the ground was built as the main venue for the 2012 Summer Olympic Games and the Paralympic Games hosted by London.It was where the track and field events were held, as well as both the opening and closing ceremonies, the former being famously directed by Danny Boyle.Renovations to the stadium took place between 2013 and 2016 in order to prepare it for use by West Ham, as well as for British Athletics to use when the Hammers aren't playing football. Despite rarely selling out games, West Ham were able to sell all 50,000 of their season tickets in the 57,000 seater ground ahead of the 2016-2017 Premier League season.",
   },
 
   {
@@ -115,7 +116,7 @@ module.exports = [
     latitude: "51.555168",
     longitude: "-0.108529",
     description:
-      "When opened, it was the 2nd biggest Premier League ground and third in England. Initially named Ashburton Grove from the street it was planned along, the venue soon gained a huge sponsor that paid 42 million pounds for a 15-year naming rights deal (later prolonged by 7 years to 2028). ",
+      "For most people of a certain age it is impossible to separate Arsenal from Highbury, their home from 1913 until 2006. Much as that ground was only ever known as Highbury despite its official name being Arsenal Stadium, so modern day football fans will perhaps only ever call the club’s new stadium The Emirates no matter what happens in the future. Arsenal themselves are one of the most successful British clubs ever, with 13 top- flight titles to their name alongside a record 13 FA Cups.They were the first club from the South of England to join the Football League, which they did in 1983. In the 2003 - 2004 season the club went unbeaten for the entire Premier League season, the only club to have done so since its formation in 1992.",
   },
 
   {
@@ -132,7 +133,7 @@ module.exports = [
     latitude: "53.483153",
     longitude: "-2.200246",
     description:
-      "The Eastlands plot was initially planned as a future olympic stadium site, when Manchester was bidding for hosting Olympics in 2000. As the bid failed, planes were downsized and a much smaller stadium has been built as the main venue of the 2002 Commonwealth Games. Capacity decreased from 80,000 to 35,000, part of which was temporary seating. Total cost stood at 110 mln pounds.",
+      "In spite of the stadium’s relatively short lifespan, it has got more of a story to its name than some much older grounds around the country. Originally proposed as a stadium for Manchester’s ill-fated attempt to hold the 2000 Olympics, it went on to host The Commonwealth Games in 2002. It was hoped that The City of Manchester Stadium would become a premier venue for athletics when the games were over. Instead the stadium was converted in 2002 to make it into a football ground and the new home of Manchester City who were keen to leave Maine Road for pastures new.The Etihad, as it is officially known for sponsorship reasons, cost £112 million to build and has received awards for its design, including a special award from the Institution of Structural Engineers in 2003.",
   },
 
   {
@@ -150,7 +151,7 @@ module.exports = [
     latitude: "54.975445",
     longitude: "-1.621641",
     description:
-      "The oldest existing stadium in North-Eastern England and at the same time one of the most characteristic football grounds in the world. Since 1880 it's been home to football, but only since 1892 also to Newcastle United, who then played in red - white outfits, contrary to current black- white colours.Already in 1905 it had the capacity of 60, 000 people, mostly thanks to the stands having standing room.In the next 90 years it has changed several times, achieving an all - seating capacity of 36, 610 in 1993.",
+      "In the city of Newcastle, football is considered to be akin to a religion, so it’s somewhat suitable that St. James’s Park towers over the city like a cathedral, casting a shadow over all that sits below it. It has the largest capacity in the North-East and has been a location for football matches since 1880. Newcastle themselves have been in residence there since 1892 when the club was formed. Over the course of their history the club have won four league championships, six FA Cups, the Inter- Cities Fairs Cup in 1969 and the UEFA Intertoto Cup in 2006. Unfortunately for the club and its supporters, the majority of their success came before the first world war, including one of their FA Cups and three of their top - flight titles.The last major domestic trophy they picked up was the FA Cup in 1955.",
   },
 
   {
@@ -168,7 +169,7 @@ module.exports = [
     latitude: "52.509053",
     longitude: "-1.884838",
     description:
-      "The ground became home to Aston Villa in 1897 with the club paying annually 300 pounds.“The Villains” bought it in 1911 and within three years dismantled the cycling track that was initially between stands and the pitch.Further remodeling was halted due to the outbreak of World War I and complete revamp ended in 1924. Even decades later Villa Park was regarded as one of the greatest venues in England created by the famous Archibald Leitch.",
+      "Aston Villa have called Villa Park home since 1897, though to begin with it was actually known as Aston Lower Grounds. At the time it was a sport ground that was situated in a Victorian amusement park in the grounds of Aston Hall. Aston Hall was a Jacobean stately home and, though current Villa fans might suggest that their future looks like it will resemble a Jacobean tragedy, the stadium has a storied history. Up until the start of the First World War the perimeter of the pitch at Villa Park was surrounded by a cycling track and was the location for numerous cycling meetings and athletic events.The now defunct UEFA Cup Winner’s Cup saw its last ever final played at Villa Park in 1999, whilst the ground is also the only one in the country to host international football in three different sports.",
   },
 
   {
@@ -186,7 +187,7 @@ module.exports = [
     latitude: "51.481623",
     longitude: "-0.190960",
     description:
-      "The ground was opened in 1877, but for first decades only athletics were played here. It was in 1905 that Chelsea was founded by owners of the venue at that time after Fulham refused to move in. In its initial form the ground had room for some 100,000 people, but only 5,000 under a covered stand designed by renowned Archibald Leitch. Remaining 95,000 has to use uncovered terracing surrounding the athletics track. Interestingly, the main stand was a copy of identical structure erected at nearby Craven Cottage not long before.",
+      "Stamford Bridge has been the home of Chelsea Football Club ever since Gus Mears bought the ground in 1905 and decided to found a brand new football team to occupy it. The stadium itself was originally used as an athletics club and maintained that purpose until about 1904. That was when two brothers, Gus and Joseph Mears, acquired the land and decided that they wanted to stage professional marches there. Interestingly, in 1898 Stamford Bridge actually hosted the World Championship final of shinty! The ground was originally offered to nearby Fulham Football Club by the Mears brothers, but they turned it down for financial reasons causing the brothers to start their own club as a direct rival to Fulham.That team was, of course, Chelsea and they haven’t left Stamford Bridge since.",
   },
   {
     name: "goodison park",
