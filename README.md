@@ -1,5 +1,5 @@
 # Away-days 
- A project by Jack Mckelvey and Edward Cowell
+ A project by Edward Cowell and Jack Mckelvey
 
 # 
 
@@ -98,7 +98,7 @@ Example request:
 }
 ```
 
-# GET api/countries/:country"
+# GET api/countries/:country
 
 Example response:
 
